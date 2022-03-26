@@ -1,0 +1,9 @@
+# ninja log v5
+1	39	1648225959368531081	CMakeFiles/CPP_Module_01.dir/ex00/main.cpp.o	e1b4f56e4448530f
+0	698	1648226070348901086	CMakeFiles/CPP_Module_01.dir/ex00/main.cpp.o	e1b4f56e4448530f
+1	733	1648226070384489052	CMakeFiles/CPP_Module_01.dir/ex00/Zombie.cpp.o	1ab9b0da443624b
+733	797	1648226070450948107	CPP_Module_01	d6cfa855a828bfd2
+2	693	1648226222454558813	CMakeFiles/CPP_Module_01.dir/ex00/main.cpp.o	e1b4f56e4448530f
+2	723	1648226222489082766	CMakeFiles/CPP_Module_01.dir/ex00/Zombie.cpp.o	1ab9b0da443624b
+5	3733	1648258822916802173	CMakeFiles/CPP_Module_01.dir/ex00/main.cpp.o	e1b4f56e4448530f
+6	3748	1648258822931407704	CMakeFiles/CPP_Module_01.dir/ex00/Zombie.cpp.o	1ab9b0da443624b
