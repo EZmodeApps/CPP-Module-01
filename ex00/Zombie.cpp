@@ -12,8 +12,7 @@ void Zombie::announce(void)
 Zombie Zombie::newZombie(std::string name)
 {
 	Zombie*	zom = new Zombie();
-	this->name = name;
-	std::cout << this->name;
+	zom->name = name;
 	zom->announce();
 	return (*zom);
 }
