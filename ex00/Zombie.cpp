@@ -1,18 +1,13 @@
 #include "Zombie.h"
 
-Zombie::Zombie() {}
+Zombie::Zombie(void) {}
 
-Zombie::~Zombie() {}
+Zombie::~Zombie(void) {}
 
-void Zombie::announce(void)
-{
-	std::cout << this->name << ": BraiiiiiiinnnzzzZ..." << std::endl;
+Zombie::Zombie(std::string name) {
+	this->name = name;
 }
 
-Zombie Zombie::newZombie(std::string name)
-{
-	Zombie*	zom = new Zombie();
-	zom->name = name;
-	zom->announce();
-	return (*zom);
+void Zombie::announce(void) {
+	std::cout << this->name << ": BraiiiiiiinnnzzzZ..." << std::endl;
 }

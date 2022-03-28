@@ -86,6 +86,20 @@ build CMakeFiles/CPP_Module_01.dir/ex00/Zombie.cpp.o: CXX_COMPILER__CPP_Module_0
   OBJECT_DIR = CMakeFiles/CPP_Module_01.dir
   OBJECT_FILE_DIR = CMakeFiles/CPP_Module_01.dir/ex00
 
+build CMakeFiles/CPP_Module_01.dir/ex00/randomChump.cpp.o: CXX_COMPILER__CPP_Module_01_Debug /Users/ez_mode/Developer/GitHub/CPP-Module-01/ex00/randomChump.cpp || cmake_object_order_depends_target_CPP_Module_01
+  DEP_FILE = CMakeFiles/CPP_Module_01.dir/ex00/randomChump.cpp.o.d
+  FLAGS = -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk -mmacosx-version-min=11.6 -std=gnu++14
+  INCLUDES = -I/Users/ez_mode/Developer/GitHub/CPP-Module-01/ex00
+  OBJECT_DIR = CMakeFiles/CPP_Module_01.dir
+  OBJECT_FILE_DIR = CMakeFiles/CPP_Module_01.dir/ex00
+
+build CMakeFiles/CPP_Module_01.dir/ex00/newZombie.cpp.o: CXX_COMPILER__CPP_Module_01_Debug /Users/ez_mode/Developer/GitHub/CPP-Module-01/ex00/newZombie.cpp || cmake_object_order_depends_target_CPP_Module_01
+  DEP_FILE = CMakeFiles/CPP_Module_01.dir/ex00/newZombie.cpp.o.d
+  FLAGS = -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk -mmacosx-version-min=11.6 -std=gnu++14
+  INCLUDES = -I/Users/ez_mode/Developer/GitHub/CPP-Module-01/ex00
+  OBJECT_DIR = CMakeFiles/CPP_Module_01.dir
+  OBJECT_FILE_DIR = CMakeFiles/CPP_Module_01.dir/ex00
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target CPP_Module_01
@@ -94,7 +108,7 @@ build CMakeFiles/CPP_Module_01.dir/ex00/Zombie.cpp.o: CXX_COMPILER__CPP_Module_0
 #############################################
 # Link the executable CPP_Module_01
 
-build CPP_Module_01: CXX_EXECUTABLE_LINKER__CPP_Module_01_Debug CMakeFiles/CPP_Module_01.dir/ex00/main.cpp.o CMakeFiles/CPP_Module_01.dir/ex00/Zombie.cpp.o
+build CPP_Module_01: CXX_EXECUTABLE_LINKER__CPP_Module_01_Debug CMakeFiles/CPP_Module_01.dir/ex00/main.cpp.o CMakeFiles/CPP_Module_01.dir/ex00/Zombie.cpp.o CMakeFiles/CPP_Module_01.dir/ex00/randomChump.cpp.o CMakeFiles/CPP_Module_01.dir/ex00/newZombie.cpp.o
   FLAGS = -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk -mmacosx-version-min=11.6
   OBJECT_DIR = CMakeFiles/CPP_Module_01.dir
   POST_BUILD = :

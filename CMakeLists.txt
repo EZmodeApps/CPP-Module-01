@@ -8,4 +8,4 @@ include_directories(ex00)
 add_executable(CPP_Module_01
         ex00/main.cpp
         ex00/Zombie.cpp
-        ex00/Zombie.h)
+        ex00/Zombie.h ex00/randomChump.cpp ex00/newZombie.cpp)

@@ -1,6 +1,6 @@
 NAME	=	zombie
 
-SRCS	=	Zombie.cpp main.cpp
+SRCS	=	Zombie.cpp randomChump.cpp newZombie.cpp main.cpp
 
 OBJS	=	${SRCS:.c=.o}
 
