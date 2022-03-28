@@ -9,7 +9,7 @@ FLAGS	=	-Wall -Wextra -Werror
 all:	$(NAME)
 
 $(NAME):	$(OBJS)
-	c++ $(SRCS) -I. -o $(NAME)
+	c++ $(FLAGS) $(SRCS) -I. -o $(NAME)
 
 clean:
 	rm -f $(NAME)
