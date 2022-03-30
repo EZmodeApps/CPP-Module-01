@@ -1,4 +1,4 @@
-NAME	=	violence
+NAME	=	sed
 
 SRCS	=	main.cpp
 
