@@ -1,5 +1,18 @@
-//
-// Created by Ilya on 29.03.2022.
-//
+#include "HumanB.hpp"
 
-#include "HumanB.h"
+HumanB::HumanB(std::string const& name, Weapon& weapon) : name(name), weapon(&weapon) {}
+
+HumanB::HumanB(std::string const& name) : name(name), weapon(NULL) {}
+
+HumanB::~HumanB() {}
+
+void HumanB::attack() {
+
+	if (weapon)
+		std::cout << name << " atacks with their " << weapon->getType() << std::endl;
+}
+
+void HumanB::setWeapon(Weapon &weapon) {
+	
+	this->weapon = &weapon;
+}
